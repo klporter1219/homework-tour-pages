@@ -1,0 +1,51 @@
+nav {
+  width: 980px;
+  height: 60px;
+  // background-color: cornflowerblue;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: black solid 2px;
+  margin-top: 30px;
+}
+
+.logo {
+  width: 92px;
+  height: 42px;
+  color: black;
+  border-style: solid;
+  border-width: 2px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding-top: 20px;
+  font-family: "Gill Sans";
+}
+
+.links {
+  width: 542px;
+  height: 42px;
+  // background-color: darkgray;
+  align-self: center;
+  display: flex;
+  font-size: 15px;
+  font-family: "Gill Sans";
+
+  a {
+    text-decoration: none;
+    color: black;
+    margin: auto;
+  }
+}
+
+.divider {
+  height: 22px;
+  margin-top: 11px;
+  width: 1px;
+  background: #79addc;
+}
+
+@media only screen and (max-width: 1060px) {
+  nav {
+    width: 100%;
+  }
+}

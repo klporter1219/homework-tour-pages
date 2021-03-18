@@ -1,0 +1,118 @@
+.tour-image {
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-top: 49px;
+  width: 981px;
+  height: 413px;
+  background-image: url(../images/uaeheader.png);
+
+  .header {
+    color: #fff;
+    font-family: Proxima;
+    font-size: 80px;
+    font-weight: normal;
+    padding-left: 30px;
+    padding-top: 42px;
+  }
+
+  .starting-from {
+    color: #fff;
+    font-size: 30px;
+    margin-left: 400px;
+    margin-top: 235px;
+  }
+}
+
+.pictures {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 40px;
+
+  .image1 {
+    font-family: Proxima;
+    font-weight: normal;
+    font-size: 30px;
+    width: 298px;
+    height: 347px;
+  }
+
+  .image2 {
+    margin-left: 42px;
+  }
+
+  .image3 {
+    margin-left: 42px;
+  }
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .section {
+    width: 981px;
+  }
+
+  .day1 {
+    font-family: Proxima;
+    font-size: 60px;
+    font-weight: normal;
+    letter-spacing: 5px;
+    margin-top: 38px;
+  }
+
+  .day-border {
+    width: 171px;
+    height: 1px;
+    border-bottom: 2px solid black;
+    position: absolute;
+    margin-top: -13px;
+  }
+
+  .day-description {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    word-spacing: 7px;
+    margin-top: 37px;
+  }
+
+  .day2 {
+    font-family: Proxima;
+    font-size: 60px;
+    font-weight: normal;
+    letter-spacing: 5px;
+    margin-top: 89px;
+  }
+
+  .day3 {
+    font-family: Proxima;
+    font-size: 60px;
+    font-weight: normal;
+    letter-spacing: 5px;
+    margin-top: 89px;
+  }
+}
+
+.book-button {
+  width: 133px;
+  height: 40px;
+  background-color: #79addc;
+  border-radius: 25px;
+  margin: 0 auto;
+  margin-top: 80px;
+  margin-bottom: 100px;
+
+  .book-now {
+    color: #fff;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    margin-left: 23px;
+    padding-top: 11px;
+  }
+}

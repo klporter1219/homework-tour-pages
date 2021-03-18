@@ -1,0 +1,240 @@
+nav {
+  width: 980px;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: black solid 2px;
+  margin-top: 30px;
+}
+
+.logo {
+  width: 92px;
+  height: 42px;
+  color: black;
+  border-style: solid;
+  border-width: 2px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding-top: 20px;
+  font-family: "Gill Sans";
+}
+
+.links {
+  width: 542px;
+  height: 42px;
+  align-self: center;
+  display: flex;
+  font-size: 15px;
+  font-family: "Gill Sans";
+}
+.links a {
+  text-decoration: none;
+  color: black;
+  margin: auto;
+}
+
+.divider {
+  height: 22px;
+  margin-top: 11px;
+  width: 1px;
+  background: #79addc;
+}
+
+@media only screen and (max-width: 1060px) {
+  nav {
+    width: 100%;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: Gill;
+  src: url(fonts/GillSans.ttc);
+}
+@font-face {
+  font-family: Proxima;
+  src: url(fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+.tour-image {
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-top: 49px;
+  width: 981px;
+  height: 413px;
+  background-image: url(../images/usaheader.png);
+}
+.tour-image .header {
+  color: #fff;
+  font-family: Proxima;
+  font-size: 80px;
+  font-weight: normal;
+  padding-left: 30px;
+  padding-top: 42px;
+}
+.tour-image .starting-from {
+  color: #fff;
+  font-size: 30px;
+  margin-left: 400px;
+  margin-top: 235px;
+}
+
+.pictures {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 40px;
+}
+.pictures .image1 {
+  font-family: Proxima;
+  font-weight: normal;
+  font-size: 30px;
+  width: 298px;
+  height: 347px;
+}
+.pictures .image2 {
+  margin-left: 42px;
+}
+.pictures .image3 {
+  margin-left: 42px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.text .section {
+  width: 981px;
+}
+.text .day1 {
+  font-family: Proxima;
+  font-size: 60px;
+  font-weight: normal;
+  letter-spacing: 5px;
+  margin-top: 38px;
+}
+.text .day-border {
+  width: 171px;
+  height: 1px;
+  border-bottom: 2px solid black;
+  position: absolute;
+  margin-top: -13px;
+}
+.text .day-description {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  word-spacing: 7px;
+  margin-top: 37px;
+}
+.text .day2 {
+  font-family: Proxima;
+  font-size: 60px;
+  font-weight: normal;
+  letter-spacing: 5px;
+  margin-top: 89px;
+}
+.text .day3 {
+  font-family: Proxima;
+  font-size: 60px;
+  font-weight: normal;
+  letter-spacing: 5px;
+  margin-top: 89px;
+}
+
+.book-button {
+  width: 133px;
+  height: 40px;
+  background-color: #79addc;
+  border-radius: 25px;
+  margin: 0 auto;
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+.book-button .book-now {
+  color: #fff;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  margin-left: 23px;
+  padding-top: 11px;
+}
+
+footer {
+  width: 1280px;
+  height: 100px;
+  background-color: #79addc;
+  margin: 0 auto;
+  display: flex;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.footerLogo {
+  width: 92px;
+  height: 42px;
+  color: white;
+  border-style: solid;
+  border-width: 2px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding-top: 20px;
+  font-family: Gill;
+  margin-left: 56px;
+}
+
+.copyright {
+  color: white;
+  font-size: 12px;
+  font-family: Gill;
+  margin: 0;
+}
+
+.facebook {
+  width: 30px;
+  height: 30px;
+  float: right;
+  margin-left: 20px;
+}
+
+.instagram {
+  width: 30px;
+  height: 30px;
+  float: right;
+  margin-left: 20px;
+}
+
+.twitter {
+  width: 30px;
+  height: 30px;
+  float: right;
+  margin-left: 20px;
+}
+
+.socials {
+  padding-right: 90px;
+}
